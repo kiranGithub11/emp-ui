@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="relative">
       {/* Horizontal Menu for Desktop */}
       <div className="hidden md:flex justify-between items-center bg-blue-500 p-4 text-white">
-        <div className="text-lg font-semibold">My App</div>
+        <div className="text-lg font-semibold">Employee Details 🏢👷🏻👷🏻‍♀️</div>
         <div className="flex space-x-8">
           <a
             href="#home"
@@ -44,7 +44,7 @@ const Navbar = () => {
 
       {/* Hamburger Menu for Mobile */}
       <div className="flex md:hidden justify-between items-center bg-blue-500 p-4 text-white">
-        <div className="text-lg font-semibold">Logo Pvt Ltd</div>
+        <div className="text-lg font-semibold">Employees Data👷🏻</div>
         <button
           onClick={toggleMenu}
           className="relative w-8 h-8 flex flex-col justify-between items-center focus:outline-none z-20"

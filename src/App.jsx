@@ -28,7 +28,7 @@ function App() {
       <div className="p-4">
         <button
           onClick={toggleView}
-          className="mb-4 p-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors duration-300"
+          className="mb-4 p-2 bg-green-600 text-white rounded hover:bg-green-700 transition-colors duration-300 shadow-lg"
         >
           Toggle View
         </button>
